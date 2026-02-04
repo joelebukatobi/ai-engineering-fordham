@@ -7,8 +7,11 @@ requires-python = ">=3.10"
 dependencies = [
     "google-genai>=1.59.0",
     "litellm>=1.81.4",
+    "matplotlib>=3.10.8",
     "numpy>=2.2.6",
     "openai>=2.15.0",
+    "pandas>=2.3.3",
     "pydantic>=2.12.5",
+    "pystemmer>=3.0.0",
     "python-dotenv>=1.2.1",
 ]
