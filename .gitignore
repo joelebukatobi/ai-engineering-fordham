@@ -48,3 +48,9 @@ temp/
 *.png
 *.jpg
 *.jpeg
+
+# Data files
+data/
+
+# Extra notebooks
+working-with-llms.ipynb
