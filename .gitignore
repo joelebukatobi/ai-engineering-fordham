@@ -45,16 +45,18 @@ Thumbs.db
 
 # Project specific
 temp/
-scripts/
 *.png
 *.jpg
 *.jpeg
+!data/dogs/*.png
 
-# Data files
-data/
+# Data files (large generated embeddings are regenerable from notebooks - excluded)
+data/smart_embeddings_openai.pkl
+data/chunk_embeddings.pkl
+data/embeddings_local.pkl
 
-# Extra notebooks
-working-with-llms.ipynb
+# Environment template (real .env stays ignored above)
+!.env.example
 
 # Serena tooling
 .serena/
