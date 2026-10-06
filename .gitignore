@@ -54,6 +54,7 @@ temp/
 data/smart_embeddings_openai.pkl
 data/chunk_embeddings.pkl
 data/embeddings_local.pkl
+data/chunks.pkl
 
 # Environment template (real .env stays ignored above)
 !.env.example
