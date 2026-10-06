@@ -55,3 +55,6 @@ data/
 
 # Extra notebooks
 working-with-llms.ipynb
+
+# Serena tooling
+.serena/
